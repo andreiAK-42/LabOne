@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f690eee-544e-4a70-b8c8-875609910ad7" name="Changes" comment="" />
+    <list default="true" id="0f690eee-544e-4a70-b8c8-875609910ad7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Task1.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task3.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task4.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task5.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task6.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Utils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LabOne/META-INF/LabOne.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LabOne/META-INF/LabOne.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LabOne.kt" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,9 +24,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="Kotlin File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="dev" />
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="dev" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -25,15 +43,15 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "andreiAK-42"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;andreiAK-42&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "https://github.com/andreiAK-42/LabOne.git",
+    "url": "https://github.com/andreiAK-42/LabOne",
     "accountId": "2582b559-00f2-4c7c-999f-08b6a38edae2"
   }
 }]]></component>
@@ -48,8 +66,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Kotlin.LabOneKt.executor": "Run",
+    "Kotlin.Task6Kt.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
@@ -100,5 +121,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="3" />
+    <option name="LAST_COMMIT_MESSAGE" value="3" />
   </component>
 </project>
