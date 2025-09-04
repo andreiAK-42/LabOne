@@ -1,0 +1,39 @@
+Index: src/LabOne.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>fun main() {\r\n    missionOne()\r\n}\r\n\r\nfun missionOne() {\r\n    println(\"Сортировка (Задание 2)\")\r\n    val listWords: List<String> = readLine()!!.split(\" \")\r\n    printList(listWords)\r\n    missionTwo(listWords)\r\n}\r\n\r\nfun missionTwo(listWords: List<String>) {\r\n    println(\"Сортировка (Задание 2)\")\r\n\r\n    val listWordsSorted = listWords.sorted()\r\n\r\n    printList(listWordsSorted)\r\n    missionThree(listWordsSorted)\r\n}\r\n\r\nfun missionThree(list: List<String>) {\r\n    printList(list.distinct())\r\n}\r\n\r\nfun printList(list: List<String>) {\r\n    for (item in list) {\r\n        println(item)\r\n    }\r\n}
+===================================================================
+diff --git a/src/LabOne.kt b/src/LabOne.kt
+--- a/src/LabOne.kt	(revision 914b33e7e8b0c6ec33e9bf52b3bdca3319e36ce4)
++++ b/src/LabOne.kt	(date 1756974061770)
+@@ -1,29 +1,0 @@
+-fun main() {
+-    missionOne()
+-}
+-
+-fun missionOne() {
+-    println("Сортировка (Задание 2)")
+-    val listWords: List<String> = readLine()!!.split(" ")
+-    printList(listWords)
+-    missionTwo(listWords)
+-}
+-
+-fun missionTwo(listWords: List<String>) {
+-    println("Сортировка (Задание 2)")
+-
+-    val listWordsSorted = listWords.sorted()
+-
+-    printList(listWordsSorted)
+-    missionThree(listWordsSorted)
+-}
+-
+-fun missionThree(list: List<String>) {
+-    printList(list.distinct())
+-}
+-
+-fun printList(list: List<String>) {
+-    for (item in list) {
+-        println(item)
+-    }
+-}
+\ No newline at end of file
